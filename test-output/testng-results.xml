@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13630" started-at="2022-11-22T08:28:47Z" finished-at="2022-11-22T08:29:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13630" started-at="2022-11-22T08:28:47Z" finished-at="2022-11-22T08:29:01Z">
+      <class name="org.stepDefinition.FbRegistrationDataTable1and2DMap">
+        <test-method status="FAIL" signature="Tc333(java.lang.String, java.lang.String)[pri:0, instance:org.stepDefinition.FbRegistrationDataTable1and2DMap@cd705f]" name="Tc333" duration-ms="0" started-at="2022-11-22T08:28:47Z" data-provider="Sample Data" finished-at="2022-11-22T08:28:47Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method private void org.base.BaseClass.Tc333(java.lang.String,java.lang.String) requires a @DataProvider named : Sample Data]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method private void org.base.BaseClass.Tc333(java.lang.String,java.lang.String) requires a @DataProvider named : Sample Data
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:513)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:691)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc333 -->
+        <test-method status="PASS" signature="Tc111()[pri:7, instance:org.stepDefinition.FbRegistrationDataTable1and2DMap@cd705f]" name="Tc111" duration-ms="13564" started-at="2022-11-22T08:28:47Z" finished-at="2022-11-22T08:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc111 -->
+      </class> <!-- org.stepDefinition.FbRegistrationDataTable1and2DMap -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
